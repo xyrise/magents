@@ -1,0 +1,19 @@
+# This sets the `.gitignore` to be a *whitelist* by default.
+**/**
+!*/
+
+
+# Whitelist
+!**/*.md
+!LICENSE
+!.gitignore
+!**/CMakeLists.txt
+!assets/**
+!.github/**
+
+!**/*.c
+!**/*.h
+
+
+# Blacklist (overrides Whitelist)
+build/*
